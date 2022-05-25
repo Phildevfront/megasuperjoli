@@ -8,7 +8,7 @@ function App() {
       <div className='container-logo'>
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className='main-title'>SUPERJOLI</h1>
-        <h3>BEAUTIFUL COMMUNICATION</h3>
+        <h3 className='sub-title'>BEAUTIFUL COMMUNICATION</h3>
       </div>
 
       </header>
