@@ -1,0 +1,9 @@
+.skyblue {
+    position: absolute;
+    z-index: 4;
+}
+
+.elephant {
+    position: relative;
+    z-index: 5;
+}
