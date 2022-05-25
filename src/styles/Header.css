@@ -1,0 +1,45 @@
+
+.App-header {
+    background: linear-gradient(to right top,#ea5b80,#ebc257);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .container-logo {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .App-logo {
+  position: absolute;
+    height: 28vmin;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .s-logo{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 28vmin;
+    z-index: 2;
+  }
+
+  .main-title {
+    position: relative;
+    font-weight: bold;
+    font-size: 65px;
+    bottom: 200px;
+    letter-spacing: 50px;
+    z-index: 3;
+  }
+  
+  .sub-title {
+    font-size: 22px;
+    letter-spacing: 10px;
+  }
